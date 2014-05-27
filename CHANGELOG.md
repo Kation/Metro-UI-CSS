@@ -1,106 +1,193 @@
-# Changelog
+## Version 2.0.30
 
-## 0.15.8.12
+### Changes:
+- move icons styles to standalone file
+- add small metroSysIcons.* font for system images
 
-Fixed checkbox, radiobutton and switch control focus (https://github.com/olton/Metro-UI-CSS/issues/79)
-Fixed checkbox, radiobutton and switch control sibiling selector (https://github.com/olton/Metro-UI-CSS/issues/116)
-Fixed right space for non-helper inputs !Note: you should now add class="with-helper" for icon inputs, check forms.php (https://github.com/olton/Metro-UI-CSS/issues/91)
-Updated forms.php for non-helper classes due to changes
+## Version 2.0.30
 
-Updated dialog.php components usage and params
+### Changes:
+- add fr locale
+- add nl locale
 
-Styled inputtype number and time (https://github.com/olton/Metro-UI-CSS/issues/108) (https://github.com/olton/Metro-UI-CSS/issues/109)
+## Version 2.0.29
 
-Added possibilites to use icon font in listview icon space
-Added badges to listview (https://github.com/olton/Metro-UI-CSS/issues/107)
-Updated listview.php for badges
+### Changes:
+- bugs fixed
+- Nuget update
 
-Updated pagecontrols.php for responsive definition clarification and source commented info (https://github.com/olton/Metro-UI-CSS/issues/93)
-Updated accordion.php for source commented info
+## Version 2.0.28
 
-Added z-index 1000 to .nav-bar (https://github.com/olton/Metro-UI-CSS/issues/82)
+### Changes:
+- bugs fixed
+- add request #464
+- init templates
+- add news portal template
+- upd Nuget package
 
-Fixed height of notices and replies while text is short or small (https://github.com/olton/Metro-UI-CSS/issues/56)
-Updated notices.php for source commented info
+## Version 2.0.27
 
-Fixed brand height while there are not images (https://github.com/olton/Metro-UI-CSS/issues/104)
+### Changes:
+- upd Nuget package
 
-Added icon as background in tiles (https://github.com/olton/Metro-UI-CSS/issues/118)
-Update tiles.php for icons as background
+## Version 2.0.26
 
-## 0.15.8.11
+### Changes:
+- upd interval for auto reinit js components
+- add stepper to public
+- fix bugs
+- add any bugs
 
-Fix helper button in input control click (change the span tag to button tag and fix plugin)
+## Version 2.0.25
 
-## 0.15.8.10
+### Changes:
+- critical upd auto reinit for js components when DOM changed (see issue 447)
 
-Add new icons:
+## Version 2.0.24
 
-* icon-award-fill
-* icon-award-stroke
-* icon-beaker-alt
-* icon-beaker
-* icon-move-vertical
-* icon-move-horizontal
-* icon-steering-wheel
-* icon-volume-3
-* icon-volume-mute
-* icon-play
-* icon-pause
-* icon-stop
-* icon-eject
-* icon-first
-* icon-last
-* icon-play-alt
-* icon-battery-empty
-* icon-battery-half
-* icon-battery-full
-* icon-battery-charging
-* icon-left-quote
-* icon-right-quote
-* icon-left-quote-alt
-* icon-right-quote-alt
-* icon-smiley
-* icon-umbrella
-* icon-info-2
-* icon-chart-alt
+### Changes:
+- add auto reinit for js components when DOM changed (see issue 447)
+- upd compressor.js (pull request 450)
+- upd stepper (currently in develop)
+- fix bugs
+- add bugs
 
-## 0.15.8.9
+## Version 2.0.23
 
-Fixed collapse internal div's in accordion
+### Changes:
+- fix dialog with form for mobile webkit (issue 424)
+- upd nuspec (issue 445)
+- fix memory leak (issue 441)
+- fix docs for incorrect labels (issue 442)
+- fix input control transform email style (issue 444)
 
-## 0.15.8.8
+## Version 2.0.22
 
-Disable IE10 native clear and reveal buttons in input[text, password]
+### Changes:
+- add german locale
+- add spanish locale
+- bug fixed
+- bug added
 
-## 0.15.8.7
+## Version 2.0.21
 
-Fix icons [icon-*] in nav-bar, minor bugs fixed
+### Changes:
+- upd responsive (container, grid, typography)
+- fix navigation bar > element-menu responsive feature
 
-## 0.15.8.6
+## Version 2.0.20
 
-Add animated images (preloaders) in windows 8 style. You can find them in folder images.
+### Changes:
+- add responsive (container, grid, typography)
 
-## 0.15.8.5
+## Version 2.0.19
 
-Merge user pull request for fonts (Fix web font lead IE8 crash)
+### Changes:
+- add dark style for dropdown menu
+- minor bugs fix
 
-## 0.15.8.4
+## Version 2.0.18
 
-Fixed outline for ListView on hover
+### Changes:
+- add light style for sidebar
+- minor bug fix for docs
 
-Change font-family for check icon for .selected class to icoFont
+### Changes:
+- remove !important from colors classes
+- add new colors bg(fg)-hover-*, bg(fg)-active-* and bg(fg)-focus-*
+- fix METRO_WEEK_START for datepicker
 
-Minor bug fixed
+## Version 2.0.16
 
-## 0.15.8.3
+### Changes:
+- add pause and resume the animations for live tiles
 
-Add white color of text for optional table rows
+## Version 2.0.15
 
-## 0.15.8.2
+### Changes:
+- add chinese language to calendar and datepicker (By NoGrief)
 
-Update demo for checkboxes, radio and switch
+## Version 2.0.14
 
-## 0.15.8.1
+### Changes:
+- fix issue 406 (data-transform)
 
-Redefine checkboxes, radio and switch
+## Version 2.0.13
+
+### Changes:
+- add global param METRO_WEEK_START (to set calendar week start: 0 - Sunday (default), 1 - Monday)
+- fix show Notify when body no have class .metro
+
+## Version 2.0.12
+
+### Changes:
+- upd datepicker for support calendar features
+
+## Version 2.0.11
+
+### Changes:
+- add start from monday for calendar
+- add show other days for calendar
+
+## Version 2.0.10
+
+### Changes:
+- add langs to calendar: en, fr, ua, ru
+
+## Version 2.0.9
+
+### Changes:
+- bugs fix
+- add locale support to calendar, datepicker and Date.format (to global set METRO_LOCALE = 'en' or 'ru', or use data-locale attribute)
+
+## Version 2.0.8
+
+### Changes:
+- bugs fix
+- add notices
+
+## Version 2.0.7
+
+### Changes:
+- fix color error in treeview
+- add minfied js in one file: metro.min.js
+
+## Version 2.0.6
+
+### Changes:
+- upd treeview, add events for collapse and expand node
+
+## Version 2.0.5
+
+### Changes:
+- init scroll bar component (prototype)
+- upd treeview
+- fix bugs
+
+## Version 2.0.4
+
+### Changes:
+- change dropdown menu default style
+- add dropdown menu inverse style
+- fix any bugs
+
+## Version 2.0.3
+
+### Changes:
+- fix any bugs
+
+## Version 2.0.2
+
+### Changes:
+- fixed minor bugs
+- new component streamer (prototype)
+
+## Version 2.0.1
+
+### Changes:
+- change buttons.less > button:active for remove dead zone tearly text in button
+- added new method value to slider
+
+### Limitation:
+- no responsive module (only prototype)
+- no tiles drag feature
